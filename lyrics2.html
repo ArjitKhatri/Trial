@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyrics - Ordinary</title>
+    <link rel="icon" type="image/jpeg" href="/Images/images.jpeg" />
+    <style>
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        margin: 0;
+      }
+
+      .card {
+        background: #ffffff;
+        max-width: 500px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        text-align: center;
+      }
+
+      h1 span {
+        background-color: #ffd1dc;
+        padding: 2px 10px;
+        border-radius: 6px;
+      }
+
+      h4 {
+        color: #666;
+        margin-top: -10px;
+        margin-bottom: 20px;
+      }
+
+      .album-cover {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      audio {
+        width: 100%;
+        margin-bottom: 25px;
+      }
+
+      .lyrics {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        font-weight: 600;
+        white-space: pre-line; /* Keeps line breaks without needing <pre> */
+        color: #2c2c2c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1><span>Ordinary</span></h1>
+      <h4>Music by Alex Warren</h4>
+
+      <img
+        src="/Images/images.jpeg"
+        alt="Album cover for Ordinary"
+        class="album-cover"
+      />
+
+      <audio controls>
+        <source src="/Music/ordinary.mp3" type="audio/mpeg" />
+      </audio>
+
+      <div class="lyrics">
+        They say, "The holy water's watered down And this town's lost its faith
+        Our colors will fade eventually" So if our time is runnin' out, day
+        after day We'll make the mundane our masterpiece
+      </div>
+    </div>
+  </body>
+</html>
